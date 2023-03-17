@@ -1,0 +1,22 @@
+POST http://localhost:3001/api/skill
+Content-Type: application/json
+
+{
+    "name": "javascript"
+}
+
+###
+GET http://localhost:3001/api/wilder/skills
+Content-Type: application/json
+###
+
+PUT http://localhost:3001/api/wilder/skills/update/2
+Content-Type: application/json
+
+{
+    "name": "testing"
+}
+###
+
+DELETE  http://localhost:3001/api/wilder/skills/delete/1
+Content-Type: application/json

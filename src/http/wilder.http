@@ -1,0 +1,31 @@
+POST http://localhost:3001/api/wilder
+Content-Type: application/json
+
+{
+"name": "khemisssss",
+"city": "Aix"
+}
+###
+GET http://localhost:3001/api/wilder/users
+Content-Type: application/json
+###
+
+DELETE  http://localhost:3001/api/wilder/users/delete/1
+Content-Type: application/json
+###
+PUT http://localhost:3001/api/wilder/users/update/2
+Content-Type: application/json
+
+{
+"city":"Paris"
+}
+###
+
+POST http://localhost:3001/api/wilder/2/skill/5/add
+Content-Type: application/json
+###
+
+DELETE http://localhost:3001/api/wilder/55/skill/8/remove
+Content-Type: application/json
+
+
